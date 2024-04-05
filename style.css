@@ -1,0 +1,21 @@
+body {
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+.uno {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.dos {
+  display: grid;
+  
+}
+ 
+.dos img {
+  width: 75%;
+  margin: auto;
+  display: block;
+}
