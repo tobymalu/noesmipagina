@@ -1,0 +1,36 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.pract {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+
+.uno {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;   
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}

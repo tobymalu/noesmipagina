@@ -19,3 +19,38 @@ body {
   margin: auto;
   display: block;
 }
+
+.pr1 img {
+
+  width: 75%;
+  margin: auto;
+  display: block;
+}
+
+.pr1 {
+
+  display: grid;
+  grid-template-columns: 25% 75%;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.pr1 a {
+  text-decoration: none;
+  
+}
+
+@media (max-width: 650px) {
+
+  .pr1 {
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+  .uno {
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+}
